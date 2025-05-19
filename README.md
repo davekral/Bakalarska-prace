@@ -18,16 +18,6 @@ Cílem bylo navrhnout, implementovat a porovnat různé metody strojového učen
 | YOLOv11s – Klasifikace | Klasifikace snímků            | Top-1 = 98,5 %       |
 | LiteRes3DNet           | Klasifikace videosekvencí     | Přesnost ≈ 39 %      |
 
-## 📁 Struktura repozitáře
-
-├── /datasets # Struktura a ukázky datasetů (YOLO, 3D, klasifikace)
-├── /scripts # Skripty pro anotace, předzpracování a dělení dat
-├── /models # Implementace a konfigurace neuronových sítí
-├── /results # Výstupní vizualizace a metriky
-├── train_yolo_detect.py # Trénování detekčního YOLOv11 modelu
-├── train_yolo_class.py # Trénování klasifikačního YOLOv11 modelu
-├── train_3dcnn.py # Trénování vlastních 3D CNN modelů
-└── README.md
 
 ## 🛠️ Použité technologie
 
